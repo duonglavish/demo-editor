@@ -1,0 +1,60 @@
+.OIe-attributes-tools {
+  position: absolute;
+  left: 300px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; 
+  align-items: center;
+  background-color: #766565;
+  width: 600px;
+  font-size: 10px;
+}
+
+.OIe-attributes-tools > label {
+  margin-left: 2px;
+}
+.OIe-attributes-tools > [name='tagName'] {
+  width: 40px;
+  height: 9px;
+  font-size: 10px;
+}
+.OIe-attributes-tools > [name='id'] {
+  width: 80px;
+  height: 9px;
+  font-size: 10px;
+}
+.OIe-attributes-tools > [name='x'],
+.OIe-attributes-tools > [name='y'],
+.OIe-attributes-tools > [name='cx'],
+.OIe-attributes-tools > [name='cy'],
+.OIe-attributes-tools > [name='rx'],
+.OIe-attributes-tools > [name='ry'],
+.OIe-attributes-tools > [name='r'],
+.OIe-attributes-tools > [name='width'],
+.OIe-attributes-tools > [name='height'],
+.OIe-attributes-tools > [name='stroke'],
+.OIe-attributes-tools > [name='stroke-width'],
+{
+  width: 35px;
+  height: 9px;
+  font-size: 10px;
+}
+
+.OIe-attributes-tools > [name='font-size'],
+{
+  width: 40px;
+  height: 9px;
+  font-size: 10px;
+}
+.OIe-attributes-tools > [name='font-family'],
+{
+  width: 90px;
+  height: 16px;
+  font-size: 10px;
+}
+.OIe-attributes-tools > [name='d'],
+{
+  width: 120px;
+  height: 9px;
+  font-size: 10px;
+}
